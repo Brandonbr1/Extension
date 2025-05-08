@@ -2,3 +2,4 @@ node_modules
 web-ext-artifacts
 out
 yarn.lock
+package-lock.json
