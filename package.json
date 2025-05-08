@@ -9,8 +9,8 @@
   "$comment": "should not be published to npm registry: keep it private",
   "private": true,
   "dependencies": {
-    "axios": "^0.27.1",
-    "lit": "^2.1.1",
+    "axios": "^1.9.0",
+    "lit": "^3.3.0",
     "url-parse": "^1.5.4"
   },
   "scripts": {
@@ -19,15 +19,15 @@
     "chromium": "concurrently --names webpack,chromium --prefix-colors red,blue \"webpack --mode development -w\" \"web-ext run --target chromium --arg=\"--window-size=1280,800\" $CHROMIUM_OPTIONS\""
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.187",
+    "@types/chrome": "^0.0.320",
     "@types/url-parse": "^1.4.7",
-    "concurrently": "^7.0.0",
-    "nodemon": "^2.0.15",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10",
     "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
-    "web-ext": "^7.0.0",
+    "typescript": "^5.8.3",
+    "web-ext": "^8.6.0",
     "webpack": "^5.67.0",
-    "webpack-cli": "^4.9.2",
+    "webpack-cli": "^6.0.1",
     "yarn-upgrade-all": "^0.7.1"
   }
 }

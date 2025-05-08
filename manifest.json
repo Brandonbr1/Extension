@@ -11,12 +11,14 @@
     "16": "icons/icon16.png"
   },
   "background": {
-    "scripts": ["out/background.bundle.js"]
+    "service_worker": "out/background.bundle.js"
   },
   "permissions": [
-    "https://api.stopmodreposts.org/sites.json",
     "tabs",
     "storage"
   ],
-  "manifest_version": 2
+  "host_permissions": [
+  "https://api.stopmodreposts.org/sites.json"
+  ],
+  "manifest_version": 3
 }
